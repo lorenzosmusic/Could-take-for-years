@@ -86,8 +86,8 @@
     <StatefulDiffCommand obj-id="481" type-name="ARDOUR::MidiPlaylist">
       <Changes>
         <Regions>
-          <Add id="612"/>
           <Add id="609"/>
+          <Add id="612"/>
           <Remove id="550"/>
         </Regions>
       </Changes>
