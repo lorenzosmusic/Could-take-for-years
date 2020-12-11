@@ -31,22 +31,6 @@
         <length from="341420" to="327194"/>
         <position from="15591484" to="15605710"/>
         <beat from="1096" to="1097"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="130929" interpolation-style="Linear" state="Off">
-              <events>0 1
-341420 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="130930" interpolation-style="Linear" state="Off">
-              <events>0 1
-327194 1
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="42" type-name="SelectionMemento">
@@ -73,22 +57,6 @@
         <length from="327194" to="312969"/>
         <position from="15605710" to="15619935"/>
         <beat from="1097" to="1098"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="131036" interpolation-style="Linear" state="Off">
-              <events>0 1
-327194 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="131037" interpolation-style="Linear" state="Off">
-              <events>0 1
-312969 1
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="42" type-name="SelectionMemento">
