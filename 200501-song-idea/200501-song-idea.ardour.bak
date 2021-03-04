@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="200501-song-idea" sample-rate="44100" end-is-free="0" id-counter="181143" name-counter="1" event-counter="882277" vca-counter="1">
+<Session version="3002" name="200501-song-idea" sample-rate="44100" end-is-free="0" id-counter="181144" name-counter="1" event-counter="891560" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3" modified-with="Ardour 1:5.12.0-3"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -1224,6 +1224,7 @@
     <Region name="Audio 9-6.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="3437568" position="12184403" beat="856.49998412698415" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="180609" type="audio" first-edit="nothing" source-0="180591" master-source-0="180591" channels="1"/>
     <Region name="Audio 9-7" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9121792" position="12184403" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="180634" type="audio" first-edit="nothing" source-0="180624" master-source-0="180624" channels="1"/>
     <Region name="Audio 1-6" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8803328" position="12184403" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="181119" type="audio" first-edit="nothing" source-0="180727" master-source-0="180727" channels="1"/>
+    <Region name="Audio 1-6.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8803328" position="12184403" beat="856.49998412698415" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="181127" type="audio" first-edit="nothing" source-0="180727" master-source-0="180727" channels="1"/>
   </Regions>
   <CompoundAssociations>
     <CompoundAssociation copy="149087" original="147781"/>
@@ -1244,7 +1245,7 @@
     <CompoundAssociation copy="149051" original="148814"/>
   </CompoundAssociations>
   <Selection>
-    <StripableAutomationControl stripable="180682" control="0" order="55"/>
+    <StripableAutomationControl stripable="179871" control="0" order="59"/>
   </Selection>
   <Locations>
     <Location id="254" name="session" start="12177290" end="20940387" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
@@ -1365,7 +1366,7 @@
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="58" flags="GainLike" value="0"/>
+        <Controllable name="gaincontrol" id="58" flags="GainLike" value="0.99999994039535522"/>
       </Processor>
       <Processor id="411" name="Calf Compressor" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Compressor" count="1" custom="0">
         <Automation>
@@ -5008,9 +5009,7 @@
       <Controllable name="solo-iso" id="180310" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="180312" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="guit 5" id="180324" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="guit 5/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
+        <Port type="audio" name="guit 5/audio_in 1"/>
       </IO>
       <IO name="guit 5" id="180325" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="guit 5/audio_out 1">
@@ -5215,15 +5214,13 @@
       <Controllable name="rec-enable" id="180332" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="Audio 9.2" name="Audio 9" id="180337" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
-    <Route id="180682" name="Audio 1" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterInput" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
+    <Route id="180682" name="Audio 1" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
       <PresentationInfo order="23" flags="AudioTrack,OrderSet" color="2796348927"/>
       <Controllable name="solo" id="180690" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="180696" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="180698" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Audio 1" id="180710" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Audio 1/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
+        <Port type="audio" name="Audio 1/audio_in 1"/>
       </IO>
       <IO name="Audio 1" id="180711" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Audio 1/audio_out 1">
@@ -5266,13 +5263,13 @@
         </Automation>
         <Controllable name="trimcontrol" id="180688" flags="GainLike" value="1"/>
       </Processor>
-      <Processor id="180714" name="meter-Audio 1" active="1" user-latency="0" type="meter"/>
       <Processor id="180712" name="Amp" active="1" user-latency="0" type="amp">
         <Automation>
           <AutomationList automation-id="gain" id="180685" interpolation-style="Linear" state="Off"/>
         </Automation>
         <Controllable name="gaincontrol" id="180686" flags="GainLike" value="1.02751624584198"/>
       </Processor>
+      <Processor id="180714" name="meter-Audio 1" active="1" user-latency="0" type="meter"/>
       <Processor id="180715" name="Audio 1" active="1" user-latency="0" own-input="1" own-output="0" output="Audio 1" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
@@ -5293,7 +5290,7 @@
       <Slavable/>
       <Controllable name="monitor" id="180722" flags="RealTime" value="2" monitoring="MonitorDisk"/>
       <Controllable name="rec-safe" id="180720" flags="Toggle,RealTime" value="0"/>
-      <Controllable name="rec-enable" id="180718" flags="Toggle,RealTime" value="1"/>
+      <Controllable name="rec-enable" id="180718" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="Audio 1.4" name="Audio 1" id="180723" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
   </Routes>
@@ -11655,39 +11652,7 @@
         </InverseFadeOut>
       </Region>
     </Playlist>
-    <Playlist id="180724" name="Audio 1.4" type="audio" orig-track-id="180682" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="Audio 1-6.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8803328" position="12184403" beat="856.49998412698415" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="181127" type="audio" first-edit="nothing" source-0="180727" master-source-0="180727" channels="1">
-        <Envelope default="yes"/>
-        <FadeIn>
-          <AutomationList automation-id="fadein" id="181128" interpolation-style="Curved" state="Off">
-            <events>0 1.0000000116860974e-07
-64 1
-</events>
-          </AutomationList>
-        </FadeIn>
-        <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="181129" interpolation-style="Curved" state="Off">
-            <events>0 1
-64 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </InverseFadeIn>
-        <FadeOut>
-          <AutomationList automation-id="fadeout" id="181130" interpolation-style="Curved" state="Off">
-            <events>0 1
-64 1.0000000116860974e-07
-</events>
-          </AutomationList>
-        </FadeOut>
-        <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="181131" interpolation-style="Curved" state="Off">
-            <events>0 1.0000000116860974e-07
-64 1
-</events>
-          </AutomationList>
-        </InverseFadeOut>
-      </Region>
-    </Playlist>
+    <Playlist id="180724" name="Audio 1.4" type="audio" orig-track-id="180682" shared-with-ids="" frozen="0" combine-ops="0"/>
   </Playlists>
   <UnusedPlaylists>
     <Playlist id="2417" name="MIDI gutar.1" type="midi" orig-track-id="2375" shared-with-ids="" frozen="0" combine-ops="0">
@@ -12753,19 +12718,19 @@
     </ExportProfile>
     <UI>
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="session-options-editor" visible="0" x-off="0" y-off="335" x-size="1043" y-size="484"/>
+      <Window name="session-options-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="about" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="960" y-size="565"/>
+      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="659" y-size="510"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="inspector" visible="0" x-off="167" y-off="81" x-size="620" y-size="828"/>
-      <Window name="audio-midi-setup" visible="0" x-off="524" y-off="292" x-size="872" y-size="496"/>
+      <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-midi-setup" visible="0" x-off="411" y-off="165" x-size="584" y-size="438"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="script-manager" visible="0" x-off="987" y-off="11" x-size="484" y-size="516"/>
-      <Window name="bundle-manager" visible="0" x-off="118" y-off="174" x-size="480" y-size="240"/>
+      <Window name="script-manager" visible="0" x-off="551" y-off="235" x-size="342" y-size="372"/>
+      <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="locations" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="big-clock" visible="0" x-off="110" y-off="271" x-size="520" y-size="78"/>
-      <Window name="audio-connection-manager" visible="0" x-off="135" y-off="145" x-size="702" y-size="673"/>
+      <Window name="big-clock" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-connection-manager" visible="0" x-off="29" y-off="136" x-size="550" y-size="468"/>
       <Window name="midi-connection-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="idle-o-meter" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-54" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -12781,6 +12746,7 @@
       <Window name="RPM-138776" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-147079" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-138837" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-169377" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-54-85" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-54-84" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-54-411" visible="0" x-off="656" y-off="0" x-size="850" y-size="404" custom-ui="1"/>
@@ -12917,6 +12883,116 @@
       <Window name="PM-138867-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-138869-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-138870-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-169377-169408" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-169377-169407" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-169377-169409" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-169377-169410" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-169408-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-169407-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-169409-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-169410-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-179004" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-179004-179035" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-179004-179034" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-179004-179036" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-179004-179037" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-179035-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-179034-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-179036-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-179037-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-179205" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-179205-179236" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-179205-179235" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-179205-179237" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-179205-179238" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-179236-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-179235-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-179237-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-179238-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-179205-179304" visible="0" x-off="0" y-off="0" x-size="874" y-size="694" custom-ui="1"/>
+      <Window name="PM-179304-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-179397" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-179397-179428" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-179397-179427" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-179397-179429" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-179397-179430" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-179428-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-179427-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-179429-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-179430-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-179560" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-179560-179591" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-179560-179590" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-179560-179592" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-179560-179593" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-179591-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-179590-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-179592-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-179593-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-179560-179654" visible="0" x-off="0" y-off="34" x-size="806" y-size="334" custom-ui="1"/>
+      <Window name="PM-179654-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-179683" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-179683-179714" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-179683-179713" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-179683-179715" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-179683-179716" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-179714-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-179713-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-179715-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-179716-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-179777" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-179777-179808" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-179777-179807" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-179777-179809" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-179777-179810" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-179808-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-179807-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-179809-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-179810-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-179871" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-179871-179902" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-179871-179901" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-179871-179903" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-179871-179904" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-179902-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-179901-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-179903-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-179904-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-180096" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-180096-180127" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-180096-180126" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-180096-180128" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-180096-180129" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-180127-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-180126-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-180128-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-180129-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-179871-180230" visible="0" x-off="0" y-off="0" x-size="748" y-size="410" custom-ui="1"/>
+      <Window name="PM-180230-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-179871-180265" visible="0" x-off="0" y-off="0" x-size="840" y-size="432" custom-ui="1"/>
+      <Window name="PM-180265-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-180296" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-180296-180327" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-180296-180326" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-180296-180328" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-180296-180329" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-180327-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-180326-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-180328-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-180329-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-180296-180423" visible="0" x-off="0" y-off="0" x-size="748" y-size="410" custom-ui="1"/>
+      <Window name="PM-180423-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-180296-180458" visible="0" x-off="0" y-off="0" x-size="840" y-size="432" custom-ui="1"/>
+      <Window name="PM-180458-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-180682" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-180682-180713" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-180682-180712" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-180682-180714" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-180682-180715" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-180713-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-180712-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-180714-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-180715-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="1"/>
@@ -13069,6 +13145,115 @@
         <Object id="automation 147085" height="86" visible="0"/>
         <Object id="automation 147079 12/0/0" height="86" visible="0"/>
         <Object id="automation 147098" height="86" visible="0"/>
+        <Object id="rtav 169377" height="66" visible="1"/>
+        <Object id="automation 169381" height="66" visible="0"/>
+        <Object id="automation 169383" height="66" visible="0"/>
+        <Object id="automation 169377 12/0/0" height="66" visible="0"/>
+        <Object id="automation 169396" height="66" visible="0"/>
+        <Object id="strip 169377" visible="1" strip-width="Wide">
+          <Object id="processor 169407"/>
+        </Object>
+        <Object id="rtav 179004" height="66" visible="1"/>
+        <Object id="automation 179008" height="66" visible="0"/>
+        <Object id="automation 179010" height="66" visible="0"/>
+        <Object id="automation 179004 12/0/0" height="66" visible="0"/>
+        <Object id="automation 179023" height="66" visible="0"/>
+        <Object id="strip 179004" strip-width="Wide" visible="1">
+          <Object id="processor 179034"/>
+        </Object>
+        <Object id="rtav 179205" height="66" visible="1"/>
+        <Object id="automation 179209" height="66" visible="0"/>
+        <Object id="automation 179211" height="66" visible="0"/>
+        <Object id="automation 179205 12/0/0" height="66" visible="0"/>
+        <Object id="automation 179224" height="66" visible="0"/>
+        <Object id="automation 179228" height="66" visible="0"/>
+        <Object id="strip 179205" strip-width="Wide" visible="1">
+          <Object id="processor 179235"/>
+          <Object id="processor 179304"/>
+        </Object>
+        <Object id="rtav 179397" height="81" visible="1"/>
+        <Object id="automation 179401" height="66" visible="0"/>
+        <Object id="automation 179403" height="66" visible="0"/>
+        <Object id="automation 179397 12/0/0" height="66" visible="0"/>
+        <Object id="automation 179416" height="66" visible="0"/>
+        <Object id="strip 179397" strip-width="Wide" visible="1">
+          <Object id="processor 179427"/>
+        </Object>
+        <Object id="rtav 179560" height="66" visible="1"/>
+        <Object id="automation 179564" height="66" visible="0"/>
+        <Object id="automation 179566" height="66" visible="0"/>
+        <Object id="automation 179560 12/0/0" height="66" visible="0"/>
+        <Object id="automation 179579" height="66" visible="0"/>
+        <Object id="strip 179560" strip-width="Wide" visible="1">
+          <Object id="processor 179590"/>
+          <Object id="processor 179654"/>
+        </Object>
+        <Object id="rtav 179683" height="66" visible="1"/>
+        <Object id="automation 179687" height="66" visible="0"/>
+        <Object id="automation 179689" height="66" visible="0"/>
+        <Object id="automation 179683 12/0/0" height="66" visible="0"/>
+        <Object id="automation 179702" height="66" visible="0"/>
+        <Object id="strip 179683" strip-width="Wide" visible="1">
+          <Object id="processor 179713"/>
+        </Object>
+        <Object id="rtav 179777" height="66" visible="1"/>
+        <Object id="automation 179781" height="66" visible="0"/>
+        <Object id="automation 179783" height="66" visible="0"/>
+        <Object id="automation 179777 12/0/0" height="66" visible="0"/>
+        <Object id="automation 179796" height="66" visible="0"/>
+        <Object id="strip 179777" strip-width="Wide" visible="1">
+          <Object id="processor 179807"/>
+        </Object>
+        <Object id="rtav 179871" height="66" visible="1"/>
+        <Object id="automation 179875" height="66" visible="0"/>
+        <Object id="automation 179877" height="66" visible="0"/>
+        <Object id="automation 179871 12/0/0" height="66" visible="0"/>
+        <Object id="automation 179890" height="66" visible="0"/>
+        <Object id="strip 179871" strip-width="Wide" visible="1">
+          <Object id="processor 179901"/>
+          <Object id="processor 180230"/>
+          <Object id="processor 180265"/>
+        </Object>
+        <Object id="strip 180035" strip-width="Wide" visible="1">
+          <Object id="processor 180065"/>
+        </Object>
+        <Object id="rtav 180096" height="72" visible="1"/>
+        <Object id="automation 180100" height="66" visible="0"/>
+        <Object id="automation 180102" height="66" visible="0"/>
+        <Object id="automation 180096 12/0/0" height="66" visible="0"/>
+        <Object id="automation 180115" height="66" visible="0"/>
+        <Object id="automation 180119" height="66" visible="0"/>
+        <Object id="strip 180096" strip-width="Wide" visible="1">
+          <Object id="processor 180126"/>
+          <Object id="processor 180195"/>
+        </Object>
+        <Object id="rtav 180296" height="66" visible="1"/>
+        <Object id="automation 180300" height="66" visible="0"/>
+        <Object id="automation 180302" height="66" visible="0"/>
+        <Object id="automation 180296 12/0/0" height="66" visible="0"/>
+        <Object id="automation 180315" height="66" visible="0"/>
+        <Object id="strip 180296" strip-width="Wide" visible="1">
+          <Object id="processor 180326"/>
+          <Object id="processor 180423"/>
+          <Object id="processor 180458"/>
+        </Object>
+        <Object id="rtav 180682" height="66" visible="1"/>
+        <Object id="automation 180686" height="66" visible="0"/>
+        <Object id="automation 180688" height="66" visible="0"/>
+        <Object id="automation 180682 12/0/0" height="66" visible="0"/>
+        <Object id="automation 180701" height="66" visible="0"/>
+        <Object id="strip 180682" strip-width="Wide" visible="1">
+          <Object id="processor 180712"/>
+          <Object id="processor 180743"/>
+          <Object id="processor 180784"/>
+          <Object id="processor 180814"/>
+          <Object id="processor 180823"/>
+          <Object id="processor 180834"/>
+          <Object id="processor 180845"/>
+          <Object id="processor 180877"/>
+          <Object id="processor 180886"/>
+          <Object id="processor 181101"/>
+        </Object>
       </GUIObjectState>
     </UI>
     <Videomonitor active="0"/>
