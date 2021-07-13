@@ -4,23 +4,23 @@
     <StatefulDiffCommand obj-id="315884" type-name="ARDOUR::AudioPlaylist">
       <Changes>
         <Regions>
-          <Add id="341196"/>
-          <Add id="341116"/>
-          <Add id="341256"/>
-          <Add id="341206"/>
-          <Add id="341166"/>
-          <Add id="341126"/>
-          <Add id="341236"/>
-          <Add id="341136"/>
-          <Add id="341096"/>
-          <Add id="341106"/>
-          <Add id="341186"/>
-          <Add id="341176"/>
-          <Add id="341216"/>
-          <Add id="341246"/>
-          <Add id="341146"/>
           <Add id="341156"/>
+          <Add id="341256"/>
+          <Add id="341246"/>
+          <Add id="341236"/>
           <Add id="341226"/>
+          <Add id="341216"/>
+          <Add id="341206"/>
+          <Add id="341176"/>
+          <Add id="341196"/>
+          <Add id="341186"/>
+          <Add id="341106"/>
+          <Add id="341116"/>
+          <Add id="341166"/>
+          <Add id="341136"/>
+          <Add id="341146"/>
+          <Add id="341096"/>
+          <Add id="341126"/>
         </Regions>
       </Changes>
     </StatefulDiffCommand>
@@ -303,22 +303,6 @@
         <length from="857105" to="864218"/>
         <position from="14972661" to="14965548"/>
         <beat from="1052.5" to="1052"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="341786" interpolation-style="Linear" state="Off">
-              <events>0 1
-857105 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="341787" interpolation-style="Linear" state="Off">
-              <events>0 1
-864218 1
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="42" type-name="SelectionMemento">
@@ -367,22 +351,6 @@
     <StatefulDiffCommand obj-id="341790" type-name="ARDOUR::AudioRegion">
       <Changes>
         <length from="170709" to="71129"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="342007" interpolation-style="Linear" state="Off">
-              <events>0 1
-170709 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="342008" interpolation-style="Linear" state="Off">
-              <events>0 1
-71129 1
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="42" type-name="SelectionMemento">
@@ -406,22 +374,6 @@
     <StatefulDiffCommand obj-id="341790" type-name="ARDOUR::AudioRegion">
       <Changes>
         <length from="71129" to="56903"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="342212" interpolation-style="Linear" state="Off">
-              <events>0 1
-71129 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="342213" interpolation-style="Linear" state="Off">
-              <events>0 1
-56903 1
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="42" type-name="SelectionMemento">
@@ -496,8 +448,8 @@
     <StatefulDiffCommand obj-id="315884" type-name="ARDOUR::AudioPlaylist">
       <Changes>
         <Regions>
-          <Add id="342447"/>
           <Add id="342438"/>
+          <Add id="342447"/>
           <Remove id="334002"/>
         </Regions>
       </Changes>
@@ -958,24 +910,24 @@
     <StatefulDiffCommand obj-id="342468" type-name="ARDOUR::AudioPlaylist">
       <Changes>
         <Regions>
-          <Remove id="342586"/>
-          <Remove id="342523"/>
-          <Remove id="342622"/>
-          <Remove id="342604"/>
-          <Remove id="342541"/>
-          <Remove id="342496"/>
-          <Remove id="342595"/>
-          <Remove id="342532"/>
-          <Remove id="342514"/>
-          <Remove id="342613"/>
+          <Remove id="342469"/>
           <Remove id="342478"/>
           <Remove id="342487"/>
+          <Remove id="342496"/>
           <Remove id="342505"/>
-          <Remove id="342577"/>
+          <Remove id="342514"/>
+          <Remove id="342523"/>
+          <Remove id="342532"/>
+          <Remove id="342541"/>
           <Remove id="342550"/>
-          <Remove id="342568"/>
-          <Remove id="342469"/>
           <Remove id="342559"/>
+          <Remove id="342568"/>
+          <Remove id="342577"/>
+          <Remove id="342586"/>
+          <Remove id="342595"/>
+          <Remove id="342604"/>
+          <Remove id="342613"/>
+          <Remove id="342622"/>
         </Regions>
       </Changes>
     </StatefulDiffCommand>
@@ -1277,37 +1229,37 @@
     <StatefulDiffCommand obj-id="342468" type-name="ARDOUR::AudioPlaylist">
       <Changes>
         <Regions>
-          <Remove id="342649"/>
           <Remove id="342640"/>
-          <Remove id="342856"/>
-          <Remove id="342829"/>
-          <Remove id="342820"/>
-          <Remove id="342901"/>
-          <Remove id="342865"/>
+          <Remove id="342649"/>
+          <Remove id="342658"/>
+          <Remove id="342667"/>
+          <Remove id="342676"/>
+          <Remove id="342685"/>
+          <Remove id="342694"/>
           <Remove id="342703"/>
           <Remove id="342712"/>
-          <Remove id="342667"/>
-          <Remove id="342748"/>
           <Remove id="342721"/>
-          <Remove id="342910"/>
-          <Remove id="342757"/>
-          <Remove id="342793"/>
-          <Remove id="342685"/>
-          <Remove id="342811"/>
-          <Remove id="342883"/>
-          <Remove id="342739"/>
-          <Remove id="342658"/>
-          <Remove id="342892"/>
-          <Remove id="342838"/>
-          <Remove id="342775"/>
-          <Remove id="342802"/>
           <Remove id="342730"/>
+          <Remove id="342739"/>
+          <Remove id="342748"/>
+          <Remove id="342757"/>
           <Remove id="342766"/>
+          <Remove id="342775"/>
           <Remove id="342784"/>
-          <Remove id="342694"/>
+          <Remove id="342793"/>
+          <Remove id="342802"/>
+          <Remove id="342811"/>
+          <Remove id="342820"/>
+          <Remove id="342829"/>
+          <Remove id="342838"/>
           <Remove id="342847"/>
-          <Remove id="342676"/>
+          <Remove id="342856"/>
+          <Remove id="342865"/>
           <Remove id="342874"/>
+          <Remove id="342883"/>
+          <Remove id="342892"/>
+          <Remove id="342901"/>
+          <Remove id="342910"/>
         </Regions>
       </Changes>
     </StatefulDiffCommand>
@@ -1473,31 +1425,31 @@
     <StatefulDiffCommand obj-id="342468" type-name="ARDOUR::AudioPlaylist">
       <Changes>
         <Regions>
-          <Remove id="342991"/>
-          <Remove id="343054"/>
           <Remove id="342919"/>
-          <Remove id="342955"/>
-          <Remove id="342973"/>
-          <Remove id="343009"/>
-          <Remove id="343045"/>
-          <Remove id="343117"/>
-          <Remove id="343090"/>
-          <Remove id="343063"/>
-          <Remove id="343108"/>
-          <Remove id="343027"/>
-          <Remove id="343018"/>
-          <Remove id="343126"/>
-          <Remove id="342946"/>
-          <Remove id="343099"/>
-          <Remove id="343135"/>
-          <Remove id="342937"/>
-          <Remove id="343036"/>
-          <Remove id="343000"/>
-          <Remove id="343081"/>
-          <Remove id="342982"/>
-          <Remove id="342964"/>
           <Remove id="342928"/>
+          <Remove id="342937"/>
+          <Remove id="342946"/>
+          <Remove id="342955"/>
+          <Remove id="342964"/>
+          <Remove id="342973"/>
+          <Remove id="342982"/>
+          <Remove id="342991"/>
+          <Remove id="343000"/>
+          <Remove id="343009"/>
+          <Remove id="343018"/>
+          <Remove id="343027"/>
+          <Remove id="343036"/>
+          <Remove id="343045"/>
+          <Remove id="343054"/>
+          <Remove id="343063"/>
           <Remove id="343072"/>
+          <Remove id="343081"/>
+          <Remove id="343090"/>
+          <Remove id="343099"/>
+          <Remove id="343108"/>
+          <Remove id="343117"/>
+          <Remove id="343126"/>
+          <Remove id="343135"/>
         </Regions>
       </Changes>
     </StatefulDiffCommand>
@@ -2057,28 +2009,28 @@
     <StatefulDiffCommand obj-id="342468" type-name="ARDOUR::AudioPlaylist">
       <Changes>
         <Regions>
-          <Remove id="343315"/>
-          <Remove id="343333"/>
+          <Remove id="343180"/>
+          <Remove id="343189"/>
+          <Remove id="343198"/>
+          <Remove id="343207"/>
+          <Remove id="343216"/>
+          <Remove id="343225"/>
           <Remove id="343234"/>
           <Remove id="343243"/>
+          <Remove id="343252"/>
+          <Remove id="343261"/>
           <Remove id="343270"/>
+          <Remove id="343279"/>
+          <Remove id="343288"/>
+          <Remove id="343297"/>
+          <Remove id="343306"/>
+          <Remove id="343315"/>
+          <Remove id="343324"/>
+          <Remove id="343333"/>
+          <Remove id="343342"/>
           <Remove id="343351"/>
           <Remove id="343360"/>
-          <Remove id="343261"/>
-          <Remove id="343252"/>
-          <Remove id="343279"/>
-          <Remove id="343207"/>
-          <Remove id="343297"/>
           <Remove id="343369"/>
-          <Remove id="343288"/>
-          <Remove id="343324"/>
-          <Remove id="343342"/>
-          <Remove id="343225"/>
-          <Remove id="343189"/>
-          <Remove id="343306"/>
-          <Remove id="343198"/>
-          <Remove id="343216"/>
-          <Remove id="343180"/>
         </Regions>
       </Changes>
     </StatefulDiffCommand>
@@ -2190,22 +2142,6 @@
         <length from="120920" to="92468"/>
         <position from="19453790" to="19482242"/>
         <beat from="1367.5" to="1369.5"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="345256" interpolation-style="Linear" state="Off">
-              <events>0 1
-120920 1
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="345257" interpolation-style="Linear" state="Off">
-              <events>0 1
-92468 1
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="42" type-name="SelectionMemento">
