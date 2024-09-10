@@ -4,8 +4,8 @@
 This is a song recorded by the abstract deconstruction creative commons band [Lorenzo's Music](https://www.lorenzosmusic.com/?utm_source=github&utm_medium=bandlink&utm_campaign=couldtakeforyearsreadme) using only open-source tools and software.
 
 # The Song
-Here is the [recording from this song experiment on YouTube](https://youtu.be/4Fy9qKxBxdo)
-[![Lorenzo's Music - Could take for years - audio](https://i.ytimg.com/vi/4Fy9qKxBxdo/maxresdefault.jpg)](https://youtu.be/4Fy9qKxBxdo)
+Here is the ["Could take for years" on YouTube](https://youtu.be/FcH63z8l_BQ)
+[![Lorenzo's Music - Could take for years - audio](https://i.ytimg.com/vi/FcH63z8l_BQ/maxresdefault.jpg)](https://youtu.be/FcH63z8l_BQ)
 
 You can also **download this song from our website**
 [https://www.lorenzosmusic.com/2021/10/could-take-for-years-by-lorenzos-music.html](https://www.lorenzosmusic.com/2021/10/could-take-for-years-by-lorenzos-music.html?utm_source=github&utm_medium=couldtakeforyearssonglink&utm_campaign=readme)
